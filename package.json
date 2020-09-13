@@ -1,0 +1,28 @@
+{
+  "name": "exemplo-shudder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn -r tsconfig-paths/register --transpile-only --ignore-watch node_modules --notify false src/App.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarvalhogo/exemplo-shudder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcarvalhogo/exemplo-shudder/issues"
+  },
+  "homepage": "https://github.com/jcarvalhogo/exemplo-shudder#readme",
+  "dependencies": {
+    "shudder": "^0.0.5" 
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.62",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.0.2"
+  }
+}
